@@ -123,4 +123,18 @@ print("age =%d | price = %f | place = %s"%(age,price,place))
 print("price is %.f"%price)
 print("print is %.2f"%price)
 
+
+
+#3) usage of string formatting --> str. format()
+
+name='codegnan';branch ='vizag';age=8
+print("{} is in {}and itis of {} years in  edtech industry".format(name,branch,age))
+a,b=2,45
+print("{},{}".format(a,b))
+print("the value of a={} and the value of b={}".format(a,b))
+
+#4) f-string notation -->
+name='codegnan';branch ='vizag';age=8
+print(f'{name} is in {branch}')
+
 '''
